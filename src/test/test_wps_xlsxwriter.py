@@ -3,7 +3,7 @@
 import pandas as pd
 from io import BytesIO
 
-from lib.xlsxwriterlib import WorkbookLib
+from libpatch.xlsxwriterlib import WorkbookLib
 
 
 filename = 'test.xlsx'

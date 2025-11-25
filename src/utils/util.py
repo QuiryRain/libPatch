@@ -3,7 +3,7 @@
 import pandas as pd
 from io import BytesIO
 
-from lib.xlsxwriterlib import WorkbookLib
+from libpatch.xlsxwriterlib import WorkbookLib
 
 
 def generate_excel_binary_data(filename, data):
